@@ -1,19 +1,19 @@
-body {
-	font-family: 'Roboto', Arial, Helvetica, sans-serif;
-}
-
 .conteiner {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	margin: 0 auto;
 	width: 1100px;
 	box-sizing: border-box;
 	background-color: #C4C4C4;
-	padding: 50px 50px 1px;
+	padding: 50px;
+}
+
+.conteiner .wrapper:not(:last-child) {
+	margin-bottom: 50px;
 }
 
 .wrapper {
 	background-color: #E6E6E6;
 	text-align: center;
-	margin: 0 0 50px;
 	box-sizing: border-box;
 }
 
@@ -42,12 +42,7 @@ body {
 }
 
 .box1,
-.bottom_box2 {
-	float: left;
-	width: 200px;
-	height: 200px;
-}
-
+.bottom_box2,
 .box2,
 .box3d,
 .box4d {
@@ -62,6 +57,7 @@ body {
 	clear: both;
 }
 
+.bottom_box2,
 .midle_box2,
 .box3,
 .box4,
@@ -70,8 +66,3 @@ body {
 .box4d {
 	margin-left: 15px;
 }
-
-.bottom_box2 {
-	margin-left: 15px
-}
-
